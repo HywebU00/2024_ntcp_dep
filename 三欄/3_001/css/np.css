@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.np .nplist {
+	margin: 10px auto 10px auto;
+}
+.np .nplist li {
+	font-size:1.3rem;
+	display:block;
+	margin: 5px 5px 5px 0px;
+	padding:10px 10px 0px 30px;
+	width:43%;
+	float:left;
+	height:30px;
+	list-style:none;
+	border:1px #F2F2F2 solid;
+	border-radius:5px;
+	background:#F3F3F3;
+	background-image: linear-gradient(to top , #E2E2E2 0%, #FFF  100%);
+	
+}
+.np .nplist li span {
+	display:inline-block;
+}
+.np .nplist li a {
+	margin:0;
+	color: #05B5BD;
+	
+}
+.np .nplist li a:hover {
+	color:#069;
+	text-decoration: underline;
+}
+.np li .From {
+	margin-left: 1em;
+}
+
+@media screen and (max-width:980px) {
+.np .nplist li { width:43%; padding:10px 10px 0px 20px;}
+
+}
+
+@media screen and (max-width:700px) {
+.np .nplist li { width:40%; padding:10px 10px 0px 20px;}
+
+}
+
+@media screen and (max-width:600px) {
+.np .nplist li { width:90%; padding:10px 10px 0px 20px;}
+
+}
+
+

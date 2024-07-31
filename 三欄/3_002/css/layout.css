@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.layout{ width:100%;/* margin-top:-50px;han1001*/}
+.layout tr td{ /*width:auto; modify for search page bug*/ vertical-align:top;}
+.layout .leftbg{ width:25%; padding-right:8px;}
+.mp .layout .center{ width:50%; background:#F9F9F9;}
+.layout .rightbg{ width:25%;}
+
+
+ @media screen and (max-width:800px){
+ 
+.layout tr td { display:inline;}
+
+.layout tr td tr td{ display:table-cell; }
+.layout tr td tr{ display:compact;}
+	 
+	 
+	 }

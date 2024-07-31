@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.layout{ width:100%; margin:0px 0 0 0; padding:0; border-collapse:collapse;}
+.layout tr td{ /*width:auto; modify for search page bug*/ vertical-align:top;}
+.mp .layout .leftbg{ width:28%; padding:0 3% 0 2%; margin:0;}
+.mp .layout .center{ width:72%;padding:0 1% 10px 2%;}
+.layout .leftbg{ width:25%; padding:0 2% 0 0; margin:0;}
+.layout .center{ width:75%;padding:0 2% 0 2%;}
+
+
+@media screen and (max-width:800px){
+
+.mp .layout .center{ width:80%;padding:0 1% 10px 2%;background: none;}
+.layout .leftbg{ width:20%; padding:0 6% 0 2%; margin:0;}
+.layout tr td { display:inline;}
+
+.layout tr td tr td{ display:table-cell; }
+.layout tr td tr{ display:compact;}
+	 
+	 
+ }
