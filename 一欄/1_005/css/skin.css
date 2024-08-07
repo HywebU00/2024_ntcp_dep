@@ -1,6 +1,6 @@
 .jcarousel-skin-tango .jcarousel-container {
     -moz-border-radius: 10px;
-    
+
 }
 .adslide .jcarousel-skin-tango li img{
 	width:180px;
@@ -37,7 +37,7 @@
 .column1 .center .jcarousel-skin-tango .jcarousel-container-horizontal {
 	width:880px;
 	margin:0 30px 15px 10px;/*han0923*/
-	
+
 }
 
 .lp .column1 .center .jcarousel-skin-tango .jcarousel-container-horizontal,
@@ -48,7 +48,7 @@
  {
 	width:600px!important;
 	margin:0 26px 0 10px;
-	
+
 }
 
 .column1 .leftbg .jcarousel-skin-tango .jcarousel-container-horizontal ,.column1 .rightbg .jcarousel-skin-tango .jcarousel-container-horizontal {
@@ -57,7 +57,7 @@
 }
 
 .lp .jcarousel-skin-tango .jcarousel-container-horizontal , .np .jcarousel-skin-tango .jcarousel-container-horizontal, .cp .jcarousel-skin-tango .jcarousel-container-horizontal,.form .jcarousel-skin-tango .jcarousel-container-horizontal,.sitemap .jcarousel-skin-tango .jcarousel-container-horizontal{
-	width:900px;	
+	width:900px;
 }
 
 
@@ -66,7 +66,7 @@
 	margin-left:25px;
 	padding-top:3px;
 	*width:900px;
-	
+
 }
 .jcarousel-skin-tango .jcarousel-clip {
 	overflow: hidden!important;
@@ -93,6 +93,7 @@
 	height: 52px;
 	cursor: pointer;
 	background: transparent url(../images/next-horizontal.png) no-repeat 0 0;
+	border: 0;
 }
 .jcarousel-skin-tango .jcarousel-next-horizontal:hover {
 	background-position: -32px 0;
@@ -105,13 +106,14 @@
 	background-position: -96px 0;
 }
 .jcarousel-skin-tango .jcarousel-prev-horizontal {
-	position: absolute; 
+	position: absolute;
 	top:0px;
 	left: -7px;
 	width: 30px;
 	height: 52px;
 	cursor: pointer;
 	background: transparent url(../images/prev-horizontal.png) no-repeat 0 0;
+	border: 0;
 }
 .jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
 	background-position: -32px 0;
@@ -241,6 +243,6 @@
 	height:50px;
 	margin-left:25px;
 	*width:250px;
-}	
+}
 }
 

@@ -143,11 +143,10 @@ a.goCenter:focus {
 	content:"";
 	position: absolute;
 	box-shadow: 0 0 0 2px #09F inset;
-	z-index: 9;
 	display: block;
 	width: 100%;
 	height: 100%;
-	z-index: 9;
+	z-index: 999;
 }
 .banner a:focus{
 	position: relative;

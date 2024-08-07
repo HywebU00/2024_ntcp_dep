@@ -180,6 +180,9 @@
 .openMenu.show, .closeMenu.show {
 	left: 0;
 }
+.openMenu.show:focus, .closeMenu.show:focus {
+	border: 2px solid #ffcc00;
+}
 .openMenu {
 	background: #43b8ca url(../images/mobileMenuIcon.png) center;
 }

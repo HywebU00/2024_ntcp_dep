@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*--------------------[ mlmenu_左欄設定]--------------------*/	
+/*--------------------[ mlmenu_左欄設定]--------------------*/
 
 .leftbg .mlmenu {
 	background: none;
@@ -12,7 +12,7 @@
 	display: block;
 	margin: 0 0 5px 10px;
 	text-align: left;
-	
+
 }
 .leftbg .mlmenu ul li {
 	width: 95%;
@@ -49,10 +49,10 @@
 .leftbg .mlmenu ul li ul li a:hover{
 	color: #3376cc;
 }
-/*--------------------[ mlmenu_左欄設定END]--------------------*/	
+/*--------------------[ mlmenu_左欄設定END]--------------------*/
 
 
-/*--------------------[ mlmenu_第一階控制 ]--------------------*/	
+/*--------------------[ mlmenu_第一階控制 ]--------------------*/
 .mlmenu {
 	margin: 0px 0;
 	text-align: left;
@@ -123,7 +123,7 @@
 	padding: 0px;
 	margin: 0px;
 	float: left;
-	
+
 }
 .mlmenu ul li ul li a {
 	color: #ffffff;
@@ -152,7 +152,7 @@
 	z-index: 999;
 }
 .mlmenu li ul {
-	
+
 	left: -10px;
 	top: 33px;
 	height: auto;
@@ -183,6 +183,9 @@
 .openMenu.show, .closeMenu.show {
 	left: 0;
 }
+.openMenu.show:focus, .closeMenu.show:focus {
+	border: 2px solid #ffcc00;
+}
 .openMenu {
 	background: #43b8ca url(../images/mobileMenuIcon.png) center;
 }
@@ -204,7 +207,7 @@
  @media screen and (max-width:800px){
 
 .leftbg .mlmenu ul li ul, .mlmenu ul li ul{
-	display:block;	
+	display:block;
 	}
 
 
@@ -212,12 +215,12 @@
 display:none;
 }
  .mpwrap {
- 
+
  height:100%;
  -webkit-transition:margin 0.5s;
  -moz-transition:margin 0.5s;
 }
- 
+
 
 .leftbg .mlmenu,.mlmenu {
  position:fixed;

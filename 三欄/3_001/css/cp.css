@@ -83,7 +83,7 @@
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
-	margin-left: 0px;	
+	margin-left: 0px;
 }
 
 .cp .info li {
@@ -93,14 +93,14 @@
 	color: #000;
 	list-style-type: none;
 	background: url(../images/icon2.gif) no-repeat 0px 6px;
-	
+
 }
 .cp .info span {
 	color: #007979;
 	padding: 0 5px 0 5px;
 	font-weight: normal;
 }
-.cp .info li img { 
+.cp .info li img {
 	vertical-align:middle;
 }
 
@@ -127,7 +127,7 @@
 }
 .cp .date {
 	/*font-family: Arial, Helvetica, sans-serif;*/
-	
+
 	font-style: normal;
 	line-height: normal;
 	font-weight: normal;
@@ -141,7 +141,7 @@
 	padding: 0px;
 	clear: both;
 	width:98%;
-	border-collapse: collapse;  
+	border-collapse: collapse;
 }
 .cp table tr th {
 	color: #069;
@@ -153,7 +153,7 @@
 	border: 1px solid #CCC;
 	margin: 0px;
 	background-color: #DEDEEF;
-}	
+}
 
 
 
@@ -202,13 +202,13 @@
 	padding:3px;
 }
 .cp table td.date {
-	
+
 }
 .cp table td.number {
 	color: #900;
 	text-align:right;
 	font-family: Arial, Helvetica, sans-serif;
-	
+
 }
 .cp table td table td{
 	padding:5px;
@@ -226,7 +226,7 @@
 .cp table td ul  {
 	margin: 5px 0 0 25px;
 	padding: 0px;
-	display: inline-block;	
+	display: inline-block;
 }
 
 .cp table td .photo_link ul  { margin-left:0px;}
@@ -246,7 +246,7 @@
 	margin-left:37px;
 }
 .cp table td a {
-	
+
 	font-weight: normal;
 	color:#036;
 }
@@ -303,7 +303,7 @@
 	margin-left: auto;
 }
 .cp .related ul li a {
-	
+
 	font-style: normal;
 	line-height: normal;
 	font-weight: normal;
@@ -321,9 +321,9 @@
 	padding-bottom: 0px;
 	padding-left: 15px;
 }
-.cp .related ul li img { 
-	vertical-align:middle; 
-	border:0 none; 
+.cp .related ul li img {
+	vertical-align:middle;
+	border:0 none;
 	padding:0 2px;
 }
 .cp .related ul li .date {
@@ -342,7 +342,7 @@
 }
 .cp .download h3 {
 	color: #666600;
-	
+
 	border-bottom: 4px solid #ddd;
 	background-image: url(../images/icon_DL.gif);
 	background-repeat: no-repeat;
@@ -373,7 +373,7 @@
 	display: block;
 }
 .cp .download ul li a {
-	
+
 	font-style: normal;
 	line-height: normal;
 	font-weight: normal;
@@ -391,9 +391,9 @@
 	padding-bottom: 0px;
 	padding-left: 15px;
 }
-.cp .download li img { 
-	vertical-align:middle; 
-	border:0 none; 
+.cp .download li img {
+	vertical-align:middle;
+	border:0 none;
 	padding:0 2px;
 }
 .cp .download li .date {
@@ -402,7 +402,7 @@
 }
 
 /*--------------------------------------------------------------------------------[  web2Tag  ]----------*/
-.web2Tag table { 
+.web2Tag table {
 	width:100%;
 }
 .web2Tag h3 {
@@ -415,11 +415,11 @@
 	padding-right: 0;
 	padding-bottom: 4px;
 	padding-left: 5px;
-	
+
 	background-color: #F2F2F2;
 	background-image: none;
 }
-.web2Tag ul { 
+.web2Tag ul {
 	margin:10px 10px;
 	padding:0px;
 	display:inline-block;
@@ -437,10 +437,10 @@
 	list-style-type: none;
 }
 .web2Tag ul li em {
-	
+
 }
-.web2Tag ul li img { 
-	padding:0 2px; 
+.web2Tag ul li img {
+	padding:0 2px;
 }
 
 /*--------------------------------------------------------------------------------[  cp_old  ]----------*/
@@ -460,7 +460,7 @@
 }
 .cp_old h1 {
 	color: #333333;
-	
+
 	margin-top: 5px;
 	margin-right: 0;
 	margin-bottom: 5px;
@@ -475,7 +475,7 @@
 }
 .cp_old h2 {
 	color: #760000;
-	
+
 	background: url(none);
 	border-right-width: 0px;
 	border-bottom-width: 0px;
@@ -493,14 +493,14 @@
 	padding-right: 0px;
 	padding-bottom: 10px;
 	padding-left: 0px;
-} 
+}
 .cp_old p {
 	color: #666;
 	text-align: center;
 }
 .cp_old p a {
 	text-decoration:none;
-	
+
 	margin: 0px;
 	padding-top: 0px;
 	padding-right: 3px;
@@ -542,11 +542,11 @@
 	padding-left: 15px;
 }
 .cp_photo h2 span {
-	
+
 	color: #760000;
 	font-weight: normal;
 	margin: 0px;
-	padding: 0px;	
+	padding: 0px;
 }
 .cp_photo p {
 	width: 336px;
@@ -557,15 +557,15 @@
 	margin-left: auto;
 	text-align: justify;
 }
-.cp_photo h3, 
-.cp_photo ul.info , 
+.cp_photo h3,
+.cp_photo ul.info ,
 .cp_photo .photoControl {
 	text-align:center;
 	background: url(none);
 }
-.cp_photo .rss { 
-	float:right; 
-	margin-top:-18px; 
+.cp_photo .rss {
+	float:right;
+	margin-top:-18px;
 }
 .cp_photo .image {
 	width:336px;
@@ -599,7 +599,7 @@
 .cp_photo .info li {
 	color: #999;
 	list-style-type: none;
-	
+
 	margin: 0px;
 	padding-top: 0;
 	padding-right: 0;
@@ -610,21 +610,21 @@
 	color: #999900;
 	padding:0 5px 0 0px;
 }
-.cp_photo .info li img { 
+.cp_photo .info li img {
 	vertical-align:middle;
 }
 .cp_photo .photoControl {
 	margin:5px 0;
 }
-.cp_photo .photoControl li { 
-	display:inline; 
-	padding:0 5px; 
+.cp_photo .photoControl li {
+	display:inline;
+	padding:0 5px;
 	margin:0 20px 0 0;
 	cursor:pointer;
 }
 .cp_photo .photoControl li.prevPhoto {
 	padding:2px 0 5px 17px;
-	
+
 	background-image: url(../images/prev.gif);
 	background-repeat: no-repeat;
 	background-position: left 4px;
@@ -643,9 +643,9 @@
 /*----------------------------------------------------------------forwardForm start (A)*/
 .cp {
 	color: #666666;
-	vertical-align: top;	
+	vertical-align: top;
 }
-.cp strong { 
+.cp strong {
 	font-weight: bold;
 }
 .cp li img {
@@ -653,7 +653,7 @@
 	border:0 none;
 }
 .cp li .date {
-	 
+
 	color: #069;
 	font-family: Arial, Helvetica, sans-serif;
 	font-style: normal;
@@ -673,10 +673,10 @@
 .cp ul  {
 	margin: 5px 0 0 0px;
 	padding: 0px;
-	display: inline-block;	
+	display: inline-block;
 }
 .cp ul li{
-	
+
 }
 .cp ul li li{
 	list-style-type: circle;
@@ -699,7 +699,7 @@
 	display: inline;
 	color: #333333;
 	margin-left:0px;
-	
+
 	margin-top: 0px;
 	padding-top: 0px;
 	padding-right: 0px;
@@ -709,7 +709,7 @@
 
 .mainContent .webFun li span{ margin-right:5px;}
 .cp .webFun li img, mainContent .webFun li img {
-	padding-right: 2px; 
+	padding-right: 2px;
 }
 .cp .webFun li em {
 	font-style: normal;
@@ -746,7 +746,7 @@
 	padding:0px;
 	display:inline;
 	background-image: none;
-	
+
 	list-style-type: none;
 }
 .cp .image li a {
@@ -770,9 +770,9 @@
 	background-position: 5px 0px;
 	padding-left: 18px;
 }
-.cp .update{  
-	text-align:right; 
-	clear:both; 
+.cp .update{
+	text-align:right;
+	clear:both;
 	color:#999;
 }
 
@@ -783,7 +783,7 @@
 }
 .cp .list h3 {
 	color: #009933;
-	
+
 	background-image: url(../images/sp_h3bg.gif);
 	background-repeat: no-repeat;
 	background-position: left 0px;
@@ -805,7 +805,7 @@
 	border-bottom: 1px dashed #dddddd;
 }
 .cp .list .foot {
-	border-bottom: 1px dashed #dddddd; 
+	border-bottom: 1px dashed #dddddd;
 	clear:both; height:3px;
 }
 
@@ -818,12 +818,12 @@
 	background-color: #FBFBEC;
 	padding:0px;
 	width:95%;
-}	
+}
 .cp .cpTb caption {
 	padding:2px;
 	color: #999999;
 	text-align:left;
-}	
+}
 .cp .cpTb th {
 	color: #006699;
 	font-weight: normal;
@@ -834,7 +834,7 @@
 	background-color: #D5E6DF;
 	border-bottom: 1px solid #afd0d2;
 }
-.cp .cpTb td {	
+.cp .cpTb td {
 	line-height: 20px;
 	padding:3px;
 	border-bottom: 1px solid #afd0d2;
@@ -852,16 +852,16 @@
 
 /*-------------------------------------------spTb */
 .spTb {
-	margin:0px 0 10px 0;	
-}	
-.spTb caption { 
-	display:none; 
+	margin:0px 0 10px 0;
+}
+.spTb caption {
+	display:none;
 	visibility: hidden;
-}	
+}
 .spTb th {
 	color: #333333;
 	padding:3px;
-	text-align: left;	
+	text-align: left;
 }
 .spTb .throw {
 	color: #006699;
@@ -876,12 +876,12 @@
 
 /*---------------------------------------------logUser*/
 .logUser{
-	margin:5px 0 ; 
+	margin:5px 0 ;
 	color: #CC6600;
 }
-.logUser img { 
-	vertical-align:middle; 
-	border:0px none; 
+.logUser img {
+	vertical-align:middle;
+	border:0px none;
 	padding:0 1px;
 }
 .cp .servicetab {
@@ -900,7 +900,7 @@
 	background-repeat: no-repeat;
 	background-position: left top;
 	display: block;
-	float:left;	
+	float:left;
 	margin:0 2px;
 	padding:0px 0px 0px 0px;
 }
@@ -917,12 +917,12 @@
 .cp .servicetab li a:hover {
 	color: #CC0000;
 }
-.cp .servicetab li.over {	
+.cp .servicetab li.over {
 	background-image: url(../images/Menuover_1.gif);
 	background-repeat: no-repeat;
 	background-position: left top;
 	display: block;
-	float:left;	
+	float:left;
 	margin:0 2px;
 	padding:0px 0px 0px 0px;
 }
@@ -961,7 +961,7 @@ html>body .cp .servicetab li.over {
 	background-repeat: no-repeat;
 	background-position: 0px 0px;
 	padding: 3px 0px 0px 25px;
-	
+
 	letter-spacing: 2px;
 }
 .cp .servicelist img{
@@ -1003,8 +1003,8 @@ html>body .cp .servicetab li.over {
 .cp .rightblock ul {
 	margin:0px auto;
 	display:block;
-	
-	
+
+
 }
 .cp .rightblock li {
 	text-align:center;
@@ -1016,11 +1016,11 @@ html>body .cp .servicetab li.over {
 	float:left;
 }
 .cp .rightblock li a img,
-.cp .rightblock li img { 
-	width:76px; 
-	border:1px solid #ccc; 
+.cp .rightblock li img {
+	width:76px;
+	border:1px solid #ccc;
 	padding:1px;
-	
+
 }
 .cp .rightblock li a:hover {
 	width:120px;
@@ -1052,7 +1052,7 @@ html>body .cp .servicetab li.over {
 	padding-right: 7px;
 	padding-bottom: 0px;
 	padding-left: 5px;
-	
+
 	text-align: justify;
 	line-height: 15px;
 }
@@ -1074,12 +1074,23 @@ html>body .cp .servicetab li.over {
 
 .cp .center .leftblock .table01 tr td{
 	border:1px solid #000 !important;
-	
+
 	}
 
 .cp .photo_link ul li{ float:left; list-style:none; margin:5px;}
 .cp .photo_link ul li .img img{ width:auto;max-width:150px; height:auto; max-height:130px;}
 .cp .photo_link ul li .img{ padding:5px;width:150px; height:130px; text-align:center;box-shadow:0px 2px 5px rgba(0%,0%,0%,0.5); border:#CCC 1px solid;}
+.cp .photo_link p {
+	display: inline-block;
+	overflow: hidden;
+	line-height: 1.4em;
+	font-size:12px;
+	text-align: left;
+	max-width:150px;
+	margin-top:5px;
+	text-align:justify;
+	text-justify:inter-ideograph;
+}
 
 /*----------------------------------------------------------------------------[article]--------------------------------------------*/
 .cp .article h1, .cp .article h2, .cp .article h3, .cp .article h4, .cp .article h5, .cp .article h6{color:#069; margin:15px 0 10px 0; padding:5px 0 0 10px; background:none;}
@@ -1090,12 +1101,12 @@ html>body .cp .servicetab li.over {
 .cp .article h5{padding:5px 0 0 0px;  }
 .cp .article h6{padding:5px 0 0 0px; }
 
-.cp .article ul{ 
-	margin:0 0 0 37px; 
-	padding:0; 
+.cp .article ul{
+	margin:0 0 0 37px;
+	padding:0;
 	background:none;
 	display:block;
-	
+
 	}
 .cp .article ul li{
 	}
@@ -1124,4 +1135,4 @@ html>body .cp .servicetab li.over {
 .cp .webFun, .mainContent .webFun{ width:100px ; margin-top: 30px;}
 
 	}
-	
+

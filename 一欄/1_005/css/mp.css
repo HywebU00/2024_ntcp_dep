@@ -142,17 +142,17 @@ h2 span {
 }
 
 /* IE8 uses \0 */
-@media all\0 { 
+@media all\0 {
 .center .slider {
 	width: 95%;/*han1009*/
-}       
-} 
+}
+}
 /* IE9 uses \9 */
-@media all and (monochrome:0) { 
+@media all and (monochrome:0) {
  .center .slider {
 	width: 97%;/*han1009*/
-}      
-} 
+}
+}
 .center .slider2 {
 	width: 95%;
 	margin: 10px 0px 20px 10px;
@@ -279,7 +279,7 @@ h2 span {
 	width:380px;/*han1009*/
 	max-width:380px;/*han1009*/
 	height: auto;
-	
+
 }
 .mp .center .photo_book ul li .img02 {
 	padding: 5px;
@@ -290,6 +290,20 @@ h2 span {
 	box-shadow: 0px 2px 5px rgba(0%,0%,0%,0.5);
 	border: #CCC 1px solid;
 	margin: 5px 5px 0px 5px;
+}
+.mp .center .photo_book ul li .img03 img {
+	max-width: 240px;/*han1003*/
+	height: auto;
+	max-height: 200px;
+}
+.mp .center .photo_book ul li .img03 {
+	padding: 5px;
+	max-width: 260px;
+	height: auto;
+	text-align: center;
+	box-shadow: 0px 2px 5px rgba(0%,0%,0%,0.5);
+	border: #CCC 1px solid;
+	margin: 5px 19px 0px 15px;
 }
 .mp .center .photo_book .more {
 	margin-right: 20px;
@@ -531,7 +545,7 @@ h2 span {
 	margin-bottom: 2px
 }
 .mpwrap .siteMap ul li a {
-	color: #fff;
+	color: #444;
 }
 /*footer*/
 .footer {
@@ -582,13 +596,13 @@ h2 span {
 	margin: -4px 0 0 0;
 }
  @media screen and (max-width:800px){
-	 
+
 .mp {
 margin-top: 20px;/*han0923*/
 }
 .center .mix_3 {
 	width:95%;/*han0923*/
-}	 
+}
 
 .mp .center .photo_book ul li .img02 img {/*han0923*/
 	max-width:250px;
@@ -604,7 +618,7 @@ margin-top: 20px;/*han0923*/
 	border: #CCC 1px solid;
 	margin: 5px 19px 0px 15px;
 }
-	 
+
 .mpwrap {
 width:100%;
 }
