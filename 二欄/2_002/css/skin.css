@@ -131,6 +131,7 @@
     width: 46px;
     height: 20px;
     background: transparent url(../images/jqlink01_down.gif) no-repeat 0 0;
+		border: 0;
 }
 
 .jcarousel-skin-tango .jcarousel-next-vertical:hover,
@@ -157,6 +158,7 @@
     width: 46px;
     height: 20px;
     background: transparent url(../images/jqlink01_top.gif) no-repeat 0 0;
+		border: 0;
 }
 
 .jcarousel-skin-tango .jcarousel-prev-vertical:hover,
