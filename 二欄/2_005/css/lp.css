@@ -846,6 +846,12 @@ caption {
   font-size: 1.3rem;
   font-weight: bold;
 }
+.lp .photo_book ul li a {
+  display: block;
+}
+.lp .photo_book ul li a:hover .photo_title {
+  color: #b08708;
+}
 .lp .photo_book ul li .img02 img {
   width: auto;
   max-width: 180px;
