@@ -1,271 +1,339 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
-.layout .center .accesskey , .layout .leftbg .accesskey , .layout .rightbg .accesskey {	
-	float: left;
+.layout .center .accesskey,
+.layout .leftbg .accesskey,
+.layout .rightbg .accesskey {
+  float: left;
 }
-.cp, .lp , .np, .qp, .sitemap, .form, .forum, .ap ,.meeting{
-	vertical-align: top;
-	padding: 0px 5px 0px 5px ;	
+.cp,
+.lp,
+.np,
+.qp,
+.sitemap,
+.form,
+.forum,
+.ap,
+.meeting {
+  vertical-align: top;
+  padding: 0px 5px 0px 5px;
 }
 
-.cp .layout .center, .lp .layout .center, .np .layout .center, .qp .layout .center, .sitemap .layout .center, .form  .layout .center, .forum  .layout .center, .ap .layout .center,.meeting .layout .center{ width:75%;  padding: 0px 1%; }
+.cp .layout .center,
+.lp .layout .center,
+.np .layout .center,
+.qp .layout .center,
+.sitemap .layout .center,
+.form .layout .center,
+.forum .layout .center,
+.ap .layout .center,
+.meeting .layout .center {
+  width: 75%;
+  padding: 0px 1%;
+}
 
 .cp .layout td,
 .lp .layout td,
 .np .layout td,
-.qp .layout td, 
-.sitemap .layout td, 
-.form  .layout td,
-.forum  .layout td,
+.qp .layout td,
+.sitemap .layout td,
+.form .layout td,
+.forum .layout td,
 .ap .layout td,
-.meeting .layout td{ 
-
- }
-
+.meeting .layout td {
+}
 
 /*----------------------------------------------------------------- accesskey */
 .accesskey {
-	position: absolute;
-	margin:5px 0 0;
-	padding:0px;
-	text-align:left;
-	font-size: 80%;
-	text-decoration: none;
-	font-weight: normal;
-	display: inline;
+  position: absolute;
+  margin: 5px 0 0;
+  padding: 0px;
+  text-align: left;
+  font-size: 80%;
+  text-decoration: none;
+  font-weight: normal;
+  display: inline;
 }
 .accesskey a {
-	color: #FFFFFF;
+  color: #ffffff;
 }
 .accesskey a:hover {
-	color: #FFFFFF;
+  color: #ffffff;
 }
 
-
-.desc{
-	margin:5px 0 5px 10px;
-	color: #660;
-	line-height: 160%;
+.desc {
+  margin: 5px 0 5px 10px;
+  color: #660;
+  line-height: 160%;
 }
-.desc a{ text-decoration:underline;}
+.desc a {
+  text-decoration: underline;
+}
 
-div:focus,input:focus,a:focus {
-	border:#09F 1px solid !important;
-           }
+div:focus-visible,
+input:focus-visible,
+a:focus-visible {
+  outline: #09f 2px solid !important;
+}
 
 /*----------------------------------------------------------------- path */
 .path {
-	margin: 0 auto 0;
-	padding: 4px 0 3px 17px;	
-	line-height: 14px;
-	color: #999;
-	text-align: left;	
-	position:relative;
-	background: url(../images/path_bg.gif) no-repeat 0px 3px;
+  margin: 0 auto 0;
+  padding: 4px 0 3px 17px;
+  line-height: 14px;
+  color: #999;
+  text-align: left;
+  position: relative;
+  background: url(../images/path_bg.gif) no-repeat 0px 3px;
 }
 .path img {
-	margin: 0 3px;
+  margin: 0 3px;
 }
 
 .aaa {
-	float: right;
-	margin: 5px 25px 0;
+  float: right;
+  margin: 5px 25px 0;
 }
 .aaa img {
-	border: 1px solid #038300;
+  border: 1px solid #038300;
 }
 /*----------------------------------------------------------------- */
 img {
-	border: none;
+  border: none;
 }
-.blockquote{
-	color: #996600;
-	line-height: 20px;
-	margin:5px 10px 0 10px;
-	clear:both;
-}
-
-.date{
-	color:#999;
-	padding:0 0 0 3px;
-	font-size:12px;
+.blockquote {
+  color: #996600;
+  line-height: 20px;
+  margin: 5px 10px 0 10px;
+  clear: both;
 }
 
-
-.btn_submit{
-	background: url(../images/btn_submitbg.png) repeat-x 0px 0px;
-	padding:5px 20px;
-	height:32px;
-	margin:5px;
-	cursor:pointer;
-	border:1px #35688E solid;
-	border-radius:5px;
-	box-shadow:0px 0px 5px rgba(0%,0%,0%,0.5);
-}
-.btn_reset{
-	background: url(../images/btn_resetbg.gif) repeat-x 0px 0px;
-	padding:3px 3px 2px 3px;
-	border:1px solid #ccc;
+.date {
+  color: #999;
+  padding: 0 0 0 3px;
+  font-size: 12px;
 }
 
-.btn_survey{
-	background: url(../images/btn_survey1.gif) no-repeat 0px 0px;
-	height: 24px;
-	width: 90px;
-	border-width: 0px;
-	cursor:pointer;
-	margin:5px 0px;
+.btn_submit {
+  background: url(../images/btn_submitbg.png) repeat-x 0px 0px;
+  padding: 5px 20px;
+  height: 32px;
+  margin: 5px;
+  cursor: pointer;
+  border: 1px #35688e solid;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0%, 0%, 0%, 0.5);
 }
-.btn_center{
-	text-align:center;
-	clear:both;
-	color: #FFFFFF;
-	margin:5px 0;
-}
-.btn_go{
-	border:none;
-	width:45px;
-	margin:0 3px;
-	text-align:center;
-	background: url(../images/btn_go.gif) no-repeat 0px 0px;
-	padding:3px 0 2px 0px;
-	*padding:4px 0 2px 0px;
-	font-size: 100%;
-	vertical-align: middle;
-	color: #333;
-	cursor:pointer;
+.btn_reset {
+  background: url(../images/btn_resetbg.gif) repeat-x 0px 0px;
+  padding: 3px 3px 2px 3px;
+  border: 1px solid #ccc;
 }
 
-.btn{
-	color: #333333;
-	border: 1px solid #CCC;
-	text-align: center;
-	padding: 4px 8px 2px 8px;	
-	cursor:pointer;
-	vertical-align: 0px;
-	background: #FFF url(../images/btnCombg.gif) repeat-x 0px top;
-	height:25px;
+.btn_survey {
+  background: url(../images/btn_survey1.gif) no-repeat 0px 0px;
+  height: 24px;
+  width: 90px;
+  border-width: 0px;
+  cursor: pointer;
+  margin: 5px 0px;
 }
-.btnHL{
-	color: #333333;
-	border: 1px solid #ceab50;
-	text-align: center;
-	padding: 4px 8px 2px 8px;	
-	cursor:pointer;
-	vertical-align: 0px;
-	background: #fff url(../images/btn_bg2.gif) repeat-x 0px top;
+.btn_center {
+  text-align: center;
+  clear: both;
+  color: #ffffff;
+  margin: 5px 0;
+}
+.btn_go {
+  border: none;
+  width: 45px;
+  margin: 0 3px;
+  text-align: center;
+  background: url(../images/btn_go.gif) no-repeat 0px 0px;
+  padding: 3px 0 2px 0px;
+  *padding: 4px 0 2px 0px;
+  font-size: 100%;
+  vertical-align: middle;
+  color: #333;
+  cursor: pointer;
 }
 
-.btn_center img, .btn_center input{ vertical-align:middle;}
+.btn {
+  color: #333333;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 4px 8px 2px 8px;
+  cursor: pointer;
+  vertical-align: 0px;
+  background: #fff url(../images/btnCombg.gif) repeat-x 0px top;
+  height: 25px;
+}
+.btnHL {
+  color: #333333;
+  border: 1px solid #ceab50;
+  text-align: center;
+  padding: 4px 8px 2px 8px;
+  cursor: pointer;
+  vertical-align: 0px;
+  background: #fff url(../images/btn_bg2.gif) repeat-x 0px top;
+}
+
+.btn_center img,
+.btn_center input {
+  vertical-align: middle;
+}
 /*------------------------------------------------substation*/
 
 /*----------------------------------------------------------------- more */
-input , textarea {
-	font-family:"新細明體";
-	color: #444444;
-		
+input,
+textarea {
+  font-family: '新細明體';
+  color: #444444;
 }
 textarea {
-	width: 98%;
-	height: 150px;
-	line-height: 150%;
-	border: 1px solid #ccc;
-	margin: 0;
-	padding: 1px 3px 2px;
+  width: 98%;
+  height: 150px;
+  line-height: 150%;
+  border: 1px solid #ccc;
+  margin: 0;
+  padding: 1px 3px 2px;
 }
 
-input.text {	
-	border: 1px solid #BBBBBB;
-	background: #FFFFFF;
-	padding:3px;
-	
+input.text {
+  border: 1px solid #bbbbbb;
+  background: #ffffff;
+  padding: 3px;
 }
 
-input + img , select + img {
-	vertical-align: bottom;
-	border: none;
+input + img,
+select + img {
+  vertical-align: bottom;
+  border: none;
 }
 
 input.text2 {
-	width: 160px;
-	height: 1.5em;
-	border: 1px solid #ccc;
-	padding: 2px 3px 0;
+  width: 160px;
+  height: 1.5em;
+  border: 1px solid #ccc;
+  padding: 2px 3px 0;
 }
 input.text3 {
-	width: 60px;
-	height: 1.5em;
-	border: 1px solid #ccc;
-	padding: 2px 3px 0;
+  width: 60px;
+  height: 1.5em;
+  border: 1px solid #ccc;
+  padding: 2px 3px 0;
 }
 
 .form td select {
-	height: 1.8em;
-	
+  height: 1.8em;
 }
 
 .note {
-	clear: both;
-	margin: 5px 0px 10px;
-	padding: 5px 15px;
-	line-height:160%;
-	color: #666;
+  clear: both;
+  margin: 5px 0px 10px;
+  padding: 5px 15px;
+  line-height: 160%;
+  color: #666;
 }
 .note li {
-	margin: 0 0 5px;
-	list-style: circle inside;
+  margin: 0 0 5px;
+  list-style: circle inside;
 }
 .note li img {
-	vertical-align: -20%;
+  vertical-align: -20%;
 }
 .must {
-	color: #C00;
-	margin-right: 3px;
+  color: #c00;
+  margin-right: 3px;
 }
-
 
 /*--------------------表格欄位預設位置 序號、時間----------------*/
-table th.date{ text-align:right; margin:0px;}
-table td.date{ color:#960; text-align:center; white-space:nowrap; }
-table th.number{text-align:center; width:5%; }
-table td.number{ text-align:center; color:#960;}
-
+table th.date {
+  text-align: right;
+  margin: 0px;
+}
+table td.date {
+  color: #960;
+  text-align: center;
+  white-space: nowrap;
+}
+table th.number {
+  text-align: center;
+  width: 5%;
+}
+table td.number {
+  text-align: center;
+  color: #960;
+}
 
 /*--------------------表格欄位預設位置 左中右----------------*/
-.aRight, th.aRight, td.aRight{ text-align:right;}
-.aLeft, th.aLeft, td.aLeft{ text-align:left;}
-.aCenter, th.aCenter, td.aCenter{ text-align:center;}
+.aRight,
+th.aRight,
+td.aRight {
+  text-align: right;
+}
+.aLeft,
+th.aLeft,
+td.aLeft {
+  text-align: left;
+}
+.aCenter,
+th.aCenter,
+td.aCenter {
+  text-align: center;
+}
 
 /*--------------------表格欄位預設位置 左中右----------------*/
-.btnRight{ float:right; margin:-25px 0 0 0; }
-.btnRight label{
-	color:#888;
-	padding:0px 0 0 10px;
+.btnRight {
+  float: right;
+  margin: -25px 0 0 0;
 }
-.floatRight{ float:right;}
-.floatRight img{ vertical-align:middle; margin:0px; padding:0;}
-
-
-.more{ float:right; clear:both;}
-.more a{ color:#666; text-decoration:underline;}
-.more a:hover{ color:#2FBAC2;}
-
-
-@media screen and (max-width:800px){
-.cp, .lp , .np, .qp, .sitemap, .form, .forum, .ap ,.meeting{
-	vertical-align: top;
-	padding: 20px 5px 0px 5px ;	
+.btnRight label {
+  color: #888;
+  padding: 0px 0 0 10px;
 }
+.floatRight {
+  float: right;
+}
+.floatRight img {
+  vertical-align: middle;
+  margin: 0px;
+  padding: 0;
 }
 
-  @media screen and (max-width:640px){
+.more {
+  float: right;
+  clear: both;
+}
+.more a {
+  color: #666;
+  text-decoration: underline;
+}
+.more a:hover {
+  color: #2fbac2;
+}
 
-input , textarea {
-	max-width:140px;
-	}
-.form td select {
-	max-width:160px!important;
-	}
- }
+@media screen and (max-width: 800px) {
+  .cp,
+  .lp,
+  .np,
+  .qp,
+  .sitemap,
+  .form,
+  .forum,
+  .ap,
+  .meeting {
+    vertical-align: top;
+    padding: 20px 5px 0px 5px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  input,
+  textarea {
+    max-width: 140px;
+  }
+  .form td select {
+    max-width: 160px !important;
+  }
+}
