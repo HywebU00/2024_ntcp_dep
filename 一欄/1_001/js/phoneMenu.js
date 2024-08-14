@@ -17,9 +17,10 @@
 
 // 	})
 // })
+
 $(function () {
   $('.openMenu').addClass('show');
-
+  $('.header .nav').prependTo('.header');
   $('.openMenu').click(function () {
     $('.closeMenu,.mobileMenu,.mlmenu,.mpwrap,.nav').addClass('show');
     $('.openMenu').removeClass('show');
@@ -66,8 +67,3 @@ $(function () {
     });
   });
 });
-
-
-
-
-

@@ -175,7 +175,9 @@
   left: 0;
 }
 .openMenu.show:focus,
-.closeMenu.show:focus {
+.closeMenu.show:focus,
+.openMenu.show:focus-visible,
+.closeMenu.show:focus-visible {
   outline: none;
   border: 2px solid #ffcc00;
 }
