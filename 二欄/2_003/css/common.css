@@ -55,13 +55,13 @@
   clear: both;
 }
 /*-----------------webFun*/
-.mainContent .webFun {
+/* .mainContent .webFun {
   margin: 0px 0 3px 20px;
   padding: 0px 0px 0px 0px;
   float: right;
   width: 100%;
   text-align: right;
-}
+} */
 .mainContent .webFun li {
   display: inline;
   color: #333333;

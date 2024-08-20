@@ -93,17 +93,15 @@ body {
 }
 
 h2 {
-  float: left;
-  width: 92%;
   padding-left: 28px;
-  background: url(../images/h2_icon01.png) no-repeat left center, url(../images/h2_icon_repeat02.png) no-repeat left;
-  background: url(../images/h2_icon01.png) no-repeat left center\9;
+  background: url(../images/h2_icon01.png) no-repeat left center; /* miley20240819 */
   font-size: 1.5rem;
   color: #253f61;
   margin: 8px 0 0 0;
-  font-size: 15px\9;
 }
-h2:after {
+/* miley20240819 */
+.mainContent.mp h2 {
+  background: url(../images/h2_icon01.png) no-repeat left center, url(../images/h2_icon_repeat02.png) no-repeat left;
 }
 h2 span {
   padding: 0px 10px 0px 0px;

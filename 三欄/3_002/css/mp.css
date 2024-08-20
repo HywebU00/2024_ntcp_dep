@@ -123,13 +123,15 @@ h2 span {
   width: 100%;
   width: 95%;
   margin: 0 0 5px 1.5%;
+  clear: both; /* miley20240819 */
 }
 .mp .photo_book ul {
-  display: block;
+  display: flex; /* miley20240819 */
+  flex-wrap: wrap;
   margin: 0 0 0 0;
 }
 .mp .photo_book ul li {
-  float: left;
+  /* float: left; */
   list-style: none;
   margin: 5px;
 }

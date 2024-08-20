@@ -699,10 +699,13 @@
 .mainContent .webFun {
   margin: 0px 0 5px 20;
   padding: 0px 0px 0px 0px;
-  float: right;
+  width: 100%;
+  text-align: right;
+  display: flex; /* miley20240819 */
+  justify-content: flex-end;
 }
 .cp .webFun li,
-mainContent .webFun li {
+.mainContent .webFun li {
   display: inline;
   color: #333333;
   margin-left: 0px;
